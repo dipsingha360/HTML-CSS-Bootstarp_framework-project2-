@@ -1,0 +1,516 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* navbar */
+
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #fff;
+}
+.navbar-brand img{
+    height:40px;
+    padding-left: 30px;
+}
+.navbar-nav li{
+    padding:0 10px;
+
+}
+.navbar-nav li a{
+    text-align: left;
+    float: right;
+}
+.navbar-nav li a:hover{
+    color: rgb(37, 139, 223) !important;
+}
+.navbar-toggler{
+    border: none !important;
+}
+.nev-link{
+    color: #333 !important;
+    font-weight: 600px;
+    font-size: 15px;
+}
+
+
+/* slider */
+
+#slider{
+    width:100%;
+}
+.carousel-item img{
+    width: 100%;
+    height: auto;
+
+}
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial !important;
+}
+.carousel-caption h5{
+    color: gold;
+    font-size: 42px;
+    text-shadow: 5px 10px 30px gold;
+}
+.carousel-caption p{
+    font-size: 15px;
+
+}
+
+
+/* about */
+
+#about{
+    padding-top: 90px;
+    padding-bottom: 40px;
+    
+}
+#about .btn{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-contant{
+    padding-top: 20px;
+}
+.skills-bar p{
+    margin-bottom: 6px;
+    font-weight: 600;
+    
+}
+.progress-bar{
+    border-radius: 15px;
+
+}
+.progress{
+    border-radius: 15px !important;
+    margin-bottom: 20px;
+}
+
+
+/* Service */
+
+
+#service{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/services.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#service h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#service h1::after{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.services{
+    margin-top: 40px;
+
+}
+.icon{
+    font-size: 28px;
+    margin: 20px auto;
+    padding: 2px;
+    height: 60px;
+    width: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.fa{
+    margin-top: 15px;
+}
+#service p{
+    font-size: 14px;
+    
+    color: #cccccc;
+
+}
+.services .col-md-3:hover{
+    background:rgb(37, 139, 223,0.4) ;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+
+/* Team-Members */
+
+#team{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555555 !important;
+
+}
+#team h1{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    color: #555555 !important;
+    
+
+}
+#team h1::after{
+    content: '';
+    background: #007bf0;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.profile-pic{
+    margin-top: 25px;
+}
+.profile-pic .img-box{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+.img-box img{
+    filter: grayscale(1);
+    height: auto;
+    width: 220px;
+}
+.img-box img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+.profile-pic h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #007bf0 !important;
+}
+.profile-pic h3{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+#team .fab{
+    height: 25px;
+    width: 25px;
+    color: #007bf0 !important;
+    background:#fff;
+    padding: 4px;
+    border-radius: 50%;
+}
+.img-box ul{
+    padding: 15px 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+.img-box ul li{
+    padding: 5px;
+    display: inline-block;
+
+}
+.img-box:hover ul{
+    opacity: 1;
+    
+}
+.img-box ul,.img-box ul li{
+    transition: 0.5s;
+}
+
+
+/* promo */
+
+#promo{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/promo.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px;
+    font-family: sans-serif;
+    font-size: 38px;
+}
+
+
+
+/* Price Plan  */
+
+#price-plan{
+    padding: 40px 0;
+    background: #efefef;
+    
+}
+#price-plan h1{
+    text-align: center;
+    padding-bottom:20px;
+    padding-top:20px;
+    margin-top: 20px;
+    color: #555555 !important;
+
+}
+#price-plan h1::after{
+    content: '';
+    background: #007bf0;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+
+}
+.single-price{
+    margin: 10px auto;
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    transition: 0.5s;
+}
+.single-price:hover{
+    box-shadow: 0 2px 20px #333333;
+}
+.price-head{
+    background-color: #2196f3;
+    display: inline;
+    float: left;
+    padding: 10px 2px;
+    text-align: center;
+    width: 100%;
+}
+.price-head h2{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.price-head p{
+    font-size: 25px;
+    color: #cccccc;
+    font-weight: bold;
+    line-height: 30px;
+}
+.price span{
+    font-size: 15px;
+}
+.price-contant{
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 0 15px;
+}
+.price-contant ul li{
+    border-bottom: 1px solid #efefef;
+    padding: 15px 10px;
+    list-style: none;
+}
+.price-contant ul li:last-child{
+    border: none;
+}
+.fa-check-circle{
+    color: green;
+    margin-right: 10px;
+    font-size: 20px;
+
+}
+.fa-times-circle{
+    color: red;
+    margin-right: 10px;
+    font-size: 20px;
+    
+}
+.price-button{
+    
+    display: inline;
+    float: left;
+    text-align: center;
+    padding: 15px 5px 30px;
+    width: 100%;
+}
+.buy-btn{
+    background-color: #2196f3;
+    border-radius: 4px;
+    
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px 50px;
+    transition: 0.5s;
+    
+}
+.buy-btn:hover{
+    border-color: 1px solid #fff;
+    background-color: #3f51b5;
+
+}
+.price-button a{
+    text-decoration: none !important;
+    color: #fff !important;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+/* Testimonials */
+
+#testimonials{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#testimonials h1{
+    text-align: center;
+    padding-bottom:10px;
+    padding-top:10px;
+    margin-top: 20px;
+    color: #555555 !important;
+}
+#testimonials h1::after{
+    content: '';
+    background: #007bf0;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+#testimonials p{
+    margin-bottom: 80px;
+}
+#testimonials .row{
+    margin-top: 30px;
+}
+#testimonials .row .col-md-4{
+    margin: 40px auto;
+}
+.profile{
+    padding: 70px 10px 10px;
+    background-color: #C9C8C9;
+    transition: 0.5s;
+    
+}
+.profile:hover{
+    box-shadow: 0 2px 20px #007bf0;
+    cursor: pointer;
+
+}
+.user{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    
+}
+.profile img{
+    top: -70px;
+    
+    position: absolute;
+    left: calc(50% -600px);
+    border: 8px solid #fff;
+    
+}
+.profile h3{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #007bff;
+}
+#testimonials span{
+    font-size: 12px;
+    color: #333333;
+}
+blockquote{
+    font-size: 16px;
+    line-height: 30px;
+}
+blockquote::before{
+    content: open-quote;
+    font-size: 50px;
+    color: #007bff;
+    position: relative;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+
+}
+blockquote::after{
+    content:close-quote;
+    font-size: 50px;
+    color: #007bff;
+    position: relative;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+    
+}
+
+
+/* Get In Touch */
+
+#contract{
+    background: #efefef;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #777;
+}
+#contract h1{
+    text-align: center;
+    padding-bottom:40px;
+    padding-top:20px;
+    color: #555555 !important;
+}
+#contract h1::after{
+    content: '';
+    background: #007bf0;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+
+}
+.contract-form{
+    padding: 15px;
+}
+.form-control{
+    border-radius: 0 !important;
+    border: none !important;
+}
+::placeholder{
+    color: #999 !important;
+}
+.follow{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+
+}
+.contract-info .fas{
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+.contract-info .fab{
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+
+
+/* Footer  */
+
+footer p{
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
